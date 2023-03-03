@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header_wrapper {
+    border-bottom: 1px solid black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: rgb(53, 52, 52);
+
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:active,
+.navbar .navbar-nav .nav-item .nav-link:focus {
+    color: black;
+    font-weight: 700;
+}
+
+
+.banner_wrapper {
+    min-height: 700px;
+    background-color: #d7e6f7;
+}
+
+.banner-text {
+    position: relative;
+    top: 120px;
+}
+
+.img-banner img {
+    min-height: 600px;
+    position: relative;
+    top: 100px;
+    border-radius: 96px 0 5px 0;
+}
+
+.locate_address {
+    min-height: 120px;
+    background-color: #e3eaee;
+}
+
+.locate_addr {
+    height: 120px;
+    background-color: #ccd3d4;
+    position: relative;
+    top: -57px;
+    border-radius: 12px;
+}
+
+
+.bookingCar_step {
+    min-height: 450px;
+}
+
+.card {
+    display: flex;
+}
+
+.card i {
+    background-color: #ccd3d4;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 22px 65px 20px 65px;
+    margin: 0px 142px;
+    border-radius: 31px;
+}
